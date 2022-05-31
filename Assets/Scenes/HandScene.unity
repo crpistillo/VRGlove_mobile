@@ -121,6 +121,18 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!114 &127527215 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8309195671995995559, guid: bcb04e8035555c846b6728fd1ff05298,
+    type: 3}
+  m_PrefabInstance: {fileID: 8309195671904271496}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7600c6f12a9996e4a9fb8e38ff669947, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &128595813
 GameObject:
   m_ObjectHideFlags: 0
@@ -213,6 +225,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 3.0070002, y: 192.74199, z: -61.683002}
+--- !u!114 &622855898 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8309195672493570642, guid: bcb04e8035555c846b6728fd1ff05298,
+    type: 3}
+  m_PrefabInstance: {fileID: 8309195671904271496}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7600c6f12a9996e4a9fb8e38ff669947, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -305,6 +329,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 60.927002, y: -42.498, z: -11.104}
+--- !u!114 &866807837 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8309195672737500309, guid: bcb04e8035555c846b6728fd1ff05298,
+    type: 3}
+  m_PrefabInstance: {fileID: 8309195671904271496}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7600c6f12a9996e4a9fb8e38ff669947, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -388,6 +424,28 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: -100, z: 0}
+--- !u!1 &1239241703 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8309195672839286639, guid: bcb04e8035555c846b6728fd1ff05298,
+    type: 3}
+  m_PrefabInstance: {fileID: 8309195671904271496}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1239241704
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1239241703}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59d03c5c227261640994f26363d55c18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fingerBones:
+  - {fileID: 127527215}
+  - {fileID: 866807837}
+  - {fileID: 622855898}
 --- !u!1 &1846579322
 GameObject:
   m_ObjectHideFlags: 0
@@ -481,467 +539,104 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &9211678322743186588
+--- !u!1001 &8309195671904271496
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 46922986696486768, guid: a1564dbf2a0a981409742696546d4028,
-        type: 3}
-      propertyPath: m_Name
-      value: index_knuckle_marker
-      objectReference: {fileID: 0}
-    - target: {fileID: 49843403896310155, guid: a1564dbf2a0a981409742696546d4028,
-        type: 3}
-      propertyPath: m_Name
-      value: middle_mcp_fe_axis_marker
-      objectReference: {fileID: 0}
-    - target: {fileID: 109437390030590330, guid: a1564dbf2a0a981409742696546d4028,
-        type: 3}
-      propertyPath: m_Name
-      value: palm_center_marker
-      objectReference: {fileID: 0}
-    - target: {fileID: 235783510123449749, guid: a1564dbf2a0a981409742696546d4028,
-        type: 3}
-      propertyPath: m_Name
-      value: thumb_ip_fe_axis_marker
-      objectReference: {fileID: 0}
-    - target: {fileID: 431627617037451986, guid: a1564dbf2a0a981409742696546d4028,
-        type: 3}
-      propertyPath: m_Name
-      value: index_finger_pad_marker
-      objectReference: {fileID: 0}
-    - target: {fileID: 467744812702886933, guid: a1564dbf2a0a981409742696546d4028,
-        type: 3}
-      propertyPath: m_Name
-      value: thumb_palm_knuckle_marker
-      objectReference: {fileID: 0}
-    - target: {fileID: 696183893174706161, guid: a1564dbf2a0a981409742696546d4028,
-        type: 3}
-      propertyPath: m_Name
-      value: thumb1
-      objectReference: {fileID: 0}
-    - target: {fileID: 798076221126810127, guid: a1564dbf2a0a981409742696546d4028,
-        type: 3}
-      propertyPath: m_Name
-      value: ring_mcp_fe_axis_marker
-      objectReference: {fileID: 0}
-    - target: {fileID: 1103133745731683833, guid: a1564dbf2a0a981409742696546d4028,
-        type: 3}
-      propertyPath: m_Name
-      value: pinky3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1195388832664090320, guid: a1564dbf2a0a981409742696546d4028,
-        type: 3}
-      propertyPath: m_Name
-      value: middle2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1235644422535341369, guid: a1564dbf2a0a981409742696546d4028,
-        type: 3}
-      propertyPath: m_Name
-      value: middle_null
-      objectReference: {fileID: 0}
-    - target: {fileID: 1289388868599176273, guid: a1564dbf2a0a981409742696546d4028,
-        type: 3}
-      propertyPath: m_Name
-      value: ring_fingernail_marker
-      objectReference: {fileID: 0}
-    - target: {fileID: 1370148106765395495, guid: a1564dbf2a0a981409742696546d4028,
-        type: 3}
-      propertyPath: m_Name
-      value: middle_knuckle_marker
-      objectReference: {fileID: 0}
-    - target: {fileID: 1436391770692562840, guid: a1564dbf2a0a981409742696546d4028,
-        type: 3}
-      propertyPath: m_Name
-      value: pinky_finger_tip_marker
-      objectReference: {fileID: 0}
-    - target: {fileID: 1531302504770104205, guid: a1564dbf2a0a981409742696546d4028,
-        type: 3}
-      propertyPath: m_Name
-      value: thumb2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1681158195887580797, guid: a1564dbf2a0a981409742696546d4028,
-        type: 3}
-      propertyPath: m_Name
-      value: ring_finger_pad_marker
-      objectReference: {fileID: 0}
-    - target: {fileID: 1709575758260595913, guid: a1564dbf2a0a981409742696546d4028,
-        type: 3}
-      propertyPath: m_Name
-      value: index_palm_collider_base1_marker
-      objectReference: {fileID: 0}
-    - target: {fileID: 1793810639009523933, guid: a1564dbf2a0a981409742696546d4028,
-        type: 3}
-      propertyPath: m_Name
-      value: pinky_dip_fe_axis_marker
-      objectReference: {fileID: 0}
-    - target: {fileID: 1800903944240198768, guid: a1564dbf2a0a981409742696546d4028,
-        type: 3}
-      propertyPath: m_Name
-      value: pinky_fingernail_marker
-      objectReference: {fileID: 0}
-    - target: {fileID: 2105333341536794105, guid: a1564dbf2a0a981409742696546d4028,
-        type: 3}
-      propertyPath: m_Name
-      value: middle_fingernail_marker
-      objectReference: {fileID: 0}
-    - target: {fileID: 2107704154937129263, guid: a1564dbf2a0a981409742696546d4028,
-        type: 3}
-      propertyPath: m_Name
-      value: index_pip_fe_axis_marker
-      objectReference: {fileID: 0}
-    - target: {fileID: 2160440399320366563, guid: a1564dbf2a0a981409742696546d4028,
-        type: 3}
-      propertyPath: m_Name
-      value: wirst
-      objectReference: {fileID: 0}
-    - target: {fileID: 2210768676689307535, guid: a1564dbf2a0a981409742696546d4028,
-        type: 3}
-      propertyPath: m_Name
-      value: pinky_palm_knuckle_marker
-      objectReference: {fileID: 0}
-    - target: {fileID: 2329553446279705323, guid: a1564dbf2a0a981409742696546d4028,
-        type: 3}
-      propertyPath: m_Name
-      value: thumb_null
-      objectReference: {fileID: 0}
-    - target: {fileID: 2634733837989616083, guid: a1564dbf2a0a981409742696546d4028,
-        type: 3}
-      propertyPath: m_Name
-      value: middle_mcp_aa_axis_marker
-      objectReference: {fileID: 0}
-    - target: {fileID: 2653151969757293549, guid: a1564dbf2a0a981409742696546d4028,
-        type: 3}
-      propertyPath: m_Name
-      value: index_mcp_aa_axis_marker
-      objectReference: {fileID: 0}
-    - target: {fileID: 2896347418203297868, guid: a1564dbf2a0a981409742696546d4028,
-        type: 3}
-      propertyPath: m_Name
-      value: ring1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3016205358987176507, guid: a1564dbf2a0a981409742696546d4028,
-        type: 3}
-      propertyPath: m_Name
-      value: pinky0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3163823815788494274, guid: a1564dbf2a0a981409742696546d4028,
-        type: 3}
-      propertyPath: m_Name
-      value: index_finger_tip_marker
-      objectReference: {fileID: 0}
-    - target: {fileID: 3213593924232510671, guid: a1564dbf2a0a981409742696546d4028,
-        type: 3}
-      propertyPath: m_Name
-      value: middle_pip_fe_axis_marker
-      objectReference: {fileID: 0}
-    - target: {fileID: 3304977177293685824, guid: a1564dbf2a0a981409742696546d4028,
-        type: 3}
-      propertyPath: m_Name
-      value: index_dip_fe_axis_marker
-      objectReference: {fileID: 0}
-    - target: {fileID: 3663503752988333451, guid: a1564dbf2a0a981409742696546d4028,
-        type: 3}
-      propertyPath: m_Name
-      value: pinky_mcp_aa_axis_marker
-      objectReference: {fileID: 0}
-    - target: {fileID: 3732304959492561963, guid: a1564dbf2a0a981409742696546d4028,
-        type: 3}
-      propertyPath: m_Name
-      value: ring3
-      objectReference: {fileID: 0}
-    - target: {fileID: 3952127689634692988, guid: a1564dbf2a0a981409742696546d4028,
-        type: 3}
-      propertyPath: m_Name
-      value: ring_palm_knuckle_marker
-      objectReference: {fileID: 0}
-    - target: {fileID: 3975252362995863575, guid: a1564dbf2a0a981409742696546d4028,
-        type: 3}
-      propertyPath: m_Name
-      value: pinky_palm_collider_base1_marker
-      objectReference: {fileID: 0}
-    - target: {fileID: 4277781576104740172, guid: a1564dbf2a0a981409742696546d4028,
-        type: 3}
-      propertyPath: m_Name
-      value: index2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4331551437748811787, guid: a1564dbf2a0a981409742696546d4028,
-        type: 3}
-      propertyPath: m_Name
-      value: pinky_pip_fe_axis_marker
-      objectReference: {fileID: 0}
-    - target: {fileID: 4457885748782733052, guid: a1564dbf2a0a981409742696546d4028,
-        type: 3}
-      propertyPath: m_Name
-      value: index1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4460570028907976808, guid: a1564dbf2a0a981409742696546d4028,
-        type: 3}
-      propertyPath: m_Name
-      value: middle_palm_collider_base0_marker
-      objectReference: {fileID: 0}
-    - target: {fileID: 4491543318719951868, guid: a1564dbf2a0a981409742696546d4028,
-        type: 3}
-      propertyPath: m_Name
-      value: ring_null
-      objectReference: {fileID: 0}
-    - target: {fileID: 4518208104503938092, guid: a1564dbf2a0a981409742696546d4028,
-        type: 3}
-      propertyPath: m_Name
-      value: index_fingernail_marker
-      objectReference: {fileID: 0}
-    - target: {fileID: 4559622826350176760, guid: a1564dbf2a0a981409742696546d4028,
-        type: 3}
-      propertyPath: m_Name
-      value: pinky_finger_pad_marker
-      objectReference: {fileID: 0}
-    - target: {fileID: 4628820473083935548, guid: a1564dbf2a0a981409742696546d4028,
-        type: 3}
-      propertyPath: m_Name
-      value: pinky1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4669286329048418074, guid: a1564dbf2a0a981409742696546d4028,
-        type: 3}
-      propertyPath: m_Name
-      value: middle1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4793039172048745410, guid: a1564dbf2a0a981409742696546d4028,
-        type: 3}
-      propertyPath: m_Name
-      value: index3
-      objectReference: {fileID: 0}
-    - target: {fileID: 4800071646239735770, guid: a1564dbf2a0a981409742696546d4028,
-        type: 3}
-      propertyPath: m_Name
-      value: ring_finger_tip_marker
-      objectReference: {fileID: 0}
-    - target: {fileID: 4853539646385737917, guid: a1564dbf2a0a981409742696546d4028,
-        type: 3}
-      propertyPath: m_Name
-      value: thumb_finger_pad_marker
-      objectReference: {fileID: 0}
-    - target: {fileID: 4853901801653865987, guid: a1564dbf2a0a981409742696546d4028,
-        type: 3}
-      propertyPath: m_Name
-      value: ring_knuckle_marker
-      objectReference: {fileID: 0}
-    - target: {fileID: 5002216879014437474, guid: a1564dbf2a0a981409742696546d4028,
-        type: 3}
-      propertyPath: m_Name
-      value: middle_palm_collider_base1_marker
-      objectReference: {fileID: 0}
-    - target: {fileID: 5003124816849940154, guid: a1564dbf2a0a981409742696546d4028,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.13499914
-      objectReference: {fileID: 0}
-    - target: {fileID: 5003124816849940154, guid: a1564dbf2a0a981409742696546d4028,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.21755874
-      objectReference: {fileID: 0}
-    - target: {fileID: 5003124816849940154, guid: a1564dbf2a0a981409742696546d4028,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -4.9098897
-      objectReference: {fileID: 0}
-    - target: {fileID: 5003124816849940154, guid: a1564dbf2a0a981409742696546d4028,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0.55065805
-      objectReference: {fileID: 0}
-    - target: {fileID: 5003124816849940154, guid: a1564dbf2a0a981409742696546d4028,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.43437734
-      objectReference: {fileID: 0}
-    - target: {fileID: 5003124816849940154, guid: a1564dbf2a0a981409742696546d4028,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0.56639385
-      objectReference: {fileID: 0}
-    - target: {fileID: 5003124816849940154, guid: a1564dbf2a0a981409742696546d4028,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: -0.43277028
-      objectReference: {fileID: 0}
-    - target: {fileID: 5003124816849940154, guid: a1564dbf2a0a981409742696546d4028,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 5003124816849940154, guid: a1564dbf2a0a981409742696546d4028,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5003124816849940154, guid: a1564dbf2a0a981409742696546d4028,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: -1.03
-      objectReference: {fileID: 0}
-    - target: {fileID: 5003124816849940154, guid: a1564dbf2a0a981409742696546d4028,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: -16.44
-      objectReference: {fileID: 0}
-    - target: {fileID: 5272812793301673376, guid: a1564dbf2a0a981409742696546d4028,
-        type: 3}
-      propertyPath: m_Name
-      value: ring_pip_fe_axis_marker
-      objectReference: {fileID: 0}
-    - target: {fileID: 5627519940146743156, guid: a1564dbf2a0a981409742696546d4028,
-        type: 3}
-      propertyPath: m_Name
-      value: middle3
-      objectReference: {fileID: 0}
-    - target: {fileID: 5683938025371690904, guid: a1564dbf2a0a981409742696546d4028,
-        type: 3}
-      propertyPath: m_Name
-      value: forearm_stub
-      objectReference: {fileID: 0}
-    - target: {fileID: 5922577142995940546, guid: a1564dbf2a0a981409742696546d4028,
-        type: 3}
-      propertyPath: m_Name
-      value: index_palm_collider_base0_marker
-      objectReference: {fileID: 0}
-    - target: {fileID: 6022285855311769767, guid: a1564dbf2a0a981409742696546d4028,
-        type: 3}
-      propertyPath: m_Name
-      value: pinky_mcp_fe_axis_marker
-      objectReference: {fileID: 0}
-    - target: {fileID: 6095109164249033292, guid: a1564dbf2a0a981409742696546d4028,
-        type: 3}
-      propertyPath: m_Name
-      value: thumb_cmc_aa_axis_marker
-      objectReference: {fileID: 0}
-    - target: {fileID: 6144230135875758460, guid: a1564dbf2a0a981409742696546d4028,
-        type: 3}
-      propertyPath: m_Name
-      value: ring_mcp_aa_axis_marker
-      objectReference: {fileID: 0}
-    - target: {fileID: 6309254801683708309, guid: a1564dbf2a0a981409742696546d4028,
-        type: 3}
-      propertyPath: m_Name
-      value: ring2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6612252062117528610, guid: a1564dbf2a0a981409742696546d4028,
-        type: 3}
-      propertyPath: m_Name
-      value: index_palm_knuckle_marker
-      objectReference: {fileID: 0}
-    - target: {fileID: 6639389138368981341, guid: a1564dbf2a0a981409742696546d4028,
-        type: 3}
-      propertyPath: m_Name
-      value: pinky2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6687330083561823562, guid: a1564dbf2a0a981409742696546d4028,
-        type: 3}
-      propertyPath: m_Name
-      value: middle_finger_pad_marker
-      objectReference: {fileID: 0}
-    - target: {fileID: 6779610596878191789, guid: a1564dbf2a0a981409742696546d4028,
-        type: 3}
-      propertyPath: m_Name
-      value: ring_dip_fe_axis_marker
-      objectReference: {fileID: 0}
-    - target: {fileID: 6858267416529641470, guid: a1564dbf2a0a981409742696546d4028,
-        type: 3}
-      propertyPath: m_Name
-      value: pinky_knuckle_marker
-      objectReference: {fileID: 0}
-    - target: {fileID: 6975879757260428082, guid: a1564dbf2a0a981409742696546d4028,
-        type: 3}
-      propertyPath: m_Name
-      value: thumb_cmc_fe_axis_marker
-      objectReference: {fileID: 0}
-    - target: {fileID: 6993706155760425444, guid: a1564dbf2a0a981409742696546d4028,
-        type: 3}
-      propertyPath: m_Name
-      value: pinky_null
-      objectReference: {fileID: 0}
-    - target: {fileID: 7040759280947478117, guid: a1564dbf2a0a981409742696546d4028,
-        type: 3}
-      propertyPath: m_Name
-      value: middle_palm_knuckle_marker
-      objectReference: {fileID: 0}
-    - target: {fileID: 7071402999799026254, guid: a1564dbf2a0a981409742696546d4028,
-        type: 3}
-      propertyPath: m_Name
-      value: thumb_finger_tip_marker
-      objectReference: {fileID: 0}
-    - target: {fileID: 7294583404383285063, guid: a1564dbf2a0a981409742696546d4028,
+    - target: {fileID: 8309195673588380422, guid: bcb04e8035555c846b6728fd1ff05298,
         type: 3}
       propertyPath: m_Name
       value: RightHand
       objectReference: {fileID: 0}
-    - target: {fileID: 7308860921637111688, guid: a1564dbf2a0a981409742696546d4028,
+    - target: {fileID: 8309195673588380423, guid: bcb04e8035555c846b6728fd1ff05298,
         type: 3}
-      propertyPath: m_Name
-      value: ring_palm_collider_base0_marker
+      propertyPath: fingers.Array.size
+      value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 7683065755799712230, guid: a1564dbf2a0a981409742696546d4028,
+    - target: {fileID: 8309195673588380423, guid: bcb04e8035555c846b6728fd1ff05298,
         type: 3}
-      propertyPath: m_Name
-      value: thumb_fingernail_marker
+      propertyPath: fingers.Array.data[0]
+      value: 
+      objectReference: {fileID: 1239241704}
+    - target: {fileID: 8309195673588380440, guid: bcb04e8035555c846b6728fd1ff05298,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.13499914
       objectReference: {fileID: 0}
-    - target: {fileID: 7774233890492319707, guid: a1564dbf2a0a981409742696546d4028,
+    - target: {fileID: 8309195673588380440, guid: bcb04e8035555c846b6728fd1ff05298,
         type: 3}
-      propertyPath: m_Name
-      value: pinky_palm_collider_base0_marker
+      propertyPath: m_LocalPosition.y
+      value: 0.21755874
       objectReference: {fileID: 0}
-    - target: {fileID: 7780547903790745303, guid: a1564dbf2a0a981409742696546d4028,
+    - target: {fileID: 8309195673588380440, guid: bcb04e8035555c846b6728fd1ff05298,
         type: 3}
-      propertyPath: m_Name
-      value: thumb_knuckle_marker
+      propertyPath: m_LocalPosition.z
+      value: -4.9098897
       objectReference: {fileID: 0}
-    - target: {fileID: 7841483645394429248, guid: a1564dbf2a0a981409742696546d4028,
+    - target: {fileID: 8309195673588380440, guid: bcb04e8035555c846b6728fd1ff05298,
         type: 3}
-      propertyPath: m_Name
-      value: thumb3
+      propertyPath: m_LocalRotation.x
+      value: 0.55065805
       objectReference: {fileID: 0}
-    - target: {fileID: 7853632584308700129, guid: a1564dbf2a0a981409742696546d4028,
+    - target: {fileID: 8309195673588380440, guid: bcb04e8035555c846b6728fd1ff05298,
         type: 3}
-      propertyPath: m_Name
-      value: middle_finger_tip_marker
+      propertyPath: m_LocalRotation.y
+      value: 0.43437734
       objectReference: {fileID: 0}
-    - target: {fileID: 7991755353365820690, guid: a1564dbf2a0a981409742696546d4028,
+    - target: {fileID: 8309195673588380440, guid: bcb04e8035555c846b6728fd1ff05298,
         type: 3}
-      propertyPath: m_Name
-      value: thumb_mcp_fe_axis_marker
+      propertyPath: m_LocalRotation.z
+      value: -0.56639385
       objectReference: {fileID: 0}
-    - target: {fileID: 8094566701764048777, guid: a1564dbf2a0a981409742696546d4028,
+    - target: {fileID: 8309195673588380440, guid: bcb04e8035555c846b6728fd1ff05298,
         type: 3}
-      propertyPath: m_Name
-      value: middle_dip_fe_axis_marker
+      propertyPath: m_LocalRotation.w
+      value: -0.43277028
       objectReference: {fileID: 0}
-    - target: {fileID: 8105133032502062002, guid: a1564dbf2a0a981409742696546d4028,
+    - target: {fileID: 8309195673588380440, guid: bcb04e8035555c846b6728fd1ff05298,
         type: 3}
-      propertyPath: m_Name
-      value: handMeshNode
+      propertyPath: m_RootOrder
+      value: 4
       objectReference: {fileID: 0}
-    - target: {fileID: 8262768684581585004, guid: a1564dbf2a0a981409742696546d4028,
+    - target: {fileID: 8309195673588380440, guid: bcb04e8035555c846b6728fd1ff05298,
         type: 3}
-      propertyPath: m_Name
-      value: index_mcp_fe_axis_marker
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8301310130928132435, guid: a1564dbf2a0a981409742696546d4028,
+    - target: {fileID: 8309195673588380440, guid: bcb04e8035555c846b6728fd1ff05298,
         type: 3}
-      propertyPath: m_Name
-      value: index_null
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -1.03
       objectReference: {fileID: 0}
-    - target: {fileID: 8806702149379763832, guid: a1564dbf2a0a981409742696546d4028,
+    - target: {fileID: 8309195673588380440, guid: bcb04e8035555c846b6728fd1ff05298,
         type: 3}
-      propertyPath: m_Name
-      value: ring_palm_collider_base1_marker
-      objectReference: {fileID: 0}
-    - target: {fileID: 8878586031468799127, guid: a1564dbf2a0a981409742696546d4028,
-        type: 3}
-      propertyPath: m_Name
-      value: thumb0
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -16.44
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: a1564dbf2a0a981409742696546d4028, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: bcb04e8035555c846b6728fd1ff05298, type: 3}
+--- !u!1 &8309195671904271497 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3764819351351674158, guid: bcb04e8035555c846b6728fd1ff05298,
+    type: 3}
+  m_PrefabInstance: {fileID: 8309195671904271496}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8309195671904271498
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8309195671904271497}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59d03c5c227261640994f26363d55c18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fingerBones:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
