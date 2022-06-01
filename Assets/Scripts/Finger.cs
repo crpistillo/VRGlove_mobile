@@ -6,14 +6,27 @@ using System;
 public class Finger : MonoBehaviour {
     public List<FingerBone> fingerBones;
 
-    public IEnumerator flex() {
-        foreach(FingerBone fingerBone in fingerBones) {
-           fingerBone.flex();
+    public void flexBones() {
+        if(!flexed()) {
+            foreach(FingerBone fingerBone in fingerBones) {
+                fingerBone.flex();
+            }
         }
-        yield return null;
     }
 
     public bool flexed() {
-        return fingerBones[0].finishedRotation();
+        return fingerBones[0].flexed();
+    }
+
+    public void strechBones() {
+        if(!streched()) {
+            foreach(FingerBone fingerBone in fingerBones) {
+                fingerBone.strech();
+            }
+        }
+    }
+
+    public bool streched() {
+        return fingerBones[0].streched();
     }
 }
