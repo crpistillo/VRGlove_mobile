@@ -5,60 +5,44 @@ using System;
 
 public class HandController : MonoBehaviour
 {
-    public List<Finger> fingers;    
+    public List<Finger> fingers;   
+    public BLEController BLEController; 
+    
+    private float previousAngle = 0.221f;
+    private bool isRunning = false;
+    private KalmanFilterFloat kalmanFilter;
+    private const float ADJUST_FACTOR = 0.6f;
+    private const float MAX_ANGLE = 135.0f;
+    private const float MIN_ANGLE = -15.0f;
+
+    void Start() {
+        kalmanFilter = new KalmanFilterFloat();
+    }
 
     void Update()
     {
-        if(Input.GetKey(KeyCode.Keypad0)) {
-            fingers[0].flexBones();
-        }
-        if(Input.GetKey(KeyCode.Keypad1)) {
-            fingers[0].strechBones();
-        }
-
-        if(Input.GetKey(KeyCode.Keypad2)) {
-            fingers[1].flexBones();
-        }
-        if(Input.GetKey(KeyCode.Keypad3)) {
-            fingers[1].strechBones();
-        }
-
-        if(Input.GetKey(KeyCode.Keypad4)) {
-            fingers[2].flexBones();
-        }
-        if(Input.GetKey(KeyCode.Keypad5)) {
-            fingers[2].strechBones();
-        }
-
-        if(Input.GetKey(KeyCode.Keypad6)) {
-            fingers[3].flexBones();
-        }
-        if(Input.GetKey(KeyCode.Keypad7)) {
-            fingers[3].strechBones();
-        }
-
-        if(Input.GetKey(KeyCode.Keypad8)) {
-            fingers[4].flexBones();
-        }
-        if(Input.GetKey(KeyCode.Keypad9)) {
-            fingers[4].strechBones();
-        }
-
-        if (Input.GetKey(KeyCode.UpArrow))
-        {
-            foreach (Finger finger in fingers)
-            {
-                finger.flexBones();
-            }
-        }
-
-        if (Input.GetKey(KeyCode.DownArrow))
-        {
-            foreach (Finger finger in fingers)
-            {
-                finger.strechBones();
+        if(BLEController.getStringAngle() == "No angle") {
+            return;
+        } else {
+            if(!isRunning) {
+                if(invalidAngle()) {
+                    return;
+                }
+                StartCoroutine(updateFingerAngle());   
             }
         }
     }
-    
+
+    IEnumerator updateFingerAngle() {
+        isRunning = true;
+        float value = kalmanFilter.Update(BLEController.getAngle()) * ADJUST_FACTOR;
+        fingers[1].flexBones(previousAngle, value);
+        previousAngle = value;
+        yield return new WaitForSeconds(BLEController.UPDATE_RATE);
+        isRunning = false;
+    }
+
+    bool invalidAngle() {
+        return BLEController.getAngle() > MAX_ANGLE || BLEController.getAngle() < MIN_ANGLE;
+    }
 }

@@ -6,7 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes: []
   m_configObjects:
-    Unity.XR.Oculus.Settings: {fileID: 0}
-    com.unity.xr.magicleap.magic_leap_settings: {fileID: 0}
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 749566307807aa94a9b9ec75b7f9b169,
+      type: 2}
+    com.unity.xr.magicleap.magic_leap_settings: {fileID: 11400000, guid: 93976b39bc0572f4fa702312cdceb171,
+      type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 10fd35efdd8f14647803ad365ffb1f1d,
       type: 2}

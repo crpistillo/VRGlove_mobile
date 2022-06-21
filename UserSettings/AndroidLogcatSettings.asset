@@ -1,0 +1,195 @@
+{
+    "m_SelectedDeviceId": "94BY19A26",
+    "m_SelectedPackage": {
+        "deviceId": "94BY19A26",
+        "name": "com.carolinapistillo.VRGlove",
+        "processId": 18870,
+        "exited": false
+    },
+    "m_SelectedPriority": 0,
+    "m_KnownPackagesForSerialization": [
+        {
+            "deviceId": "94BY19A26",
+            "name": "com.carolinapistillo.VRGlove",
+            "processId": 31667,
+            "exited": true
+        },
+        {
+            "deviceId": "94BY19A26",
+            "name": "com.carolinapistillo.VRGlove",
+            "processId": 31863,
+            "exited": true
+        },
+        {
+            "deviceId": "94BY19A26",
+            "name": "com.carolinapistillo.VRGlove",
+            "processId": 32220,
+            "exited": true
+        },
+        {
+            "deviceId": "94BY19A26",
+            "name": "com.carolinapistillo.VRGlove",
+            "processId": 32482,
+            "exited": true
+        },
+        {
+            "deviceId": "94BY19A26",
+            "name": "com.carolinapistillo.VRGlove",
+            "processId": 32699,
+            "exited": true
+        },
+        {
+            "deviceId": "94BY19A26",
+            "name": "com.carolinapistillo.VRGlove",
+            "processId": 1382,
+            "exited": false
+        },
+        {
+            "deviceId": "94BY19A26",
+            "name": "com.carolinapistillo.VRGlove",
+            "processId": 2347,
+            "exited": false
+        },
+        {
+            "deviceId": "94BY19A26",
+            "name": "com.carolinapistillo.VRGlove",
+            "processId": 2806,
+            "exited": false
+        },
+        {
+            "deviceId": "94BY19A26",
+            "name": "com.carolinapistillo.VRGlove",
+            "processId": 14453,
+            "exited": false
+        },
+        {
+            "deviceId": "94BY19A26",
+            "name": "com.carolinapistillo.VRGlove",
+            "processId": 14875,
+            "exited": false
+        },
+        {
+            "deviceId": "94BY19A26",
+            "name": "com.carolinapistillo.VRGlove",
+            "processId": 15491,
+            "exited": false
+        },
+        {
+            "deviceId": "94BY19A26",
+            "name": "com.carolinapistillo.VRGlove",
+            "processId": 15875,
+            "exited": false
+        },
+        {
+            "deviceId": "94BY19A26",
+            "name": "com.carolinapistillo.VRGlove",
+            "processId": 16314,
+            "exited": false
+        },
+        {
+            "deviceId": "94BY19A26",
+            "name": "com.carolinapistillo.VRGlove",
+            "processId": 16594,
+            "exited": false
+        },
+        {
+            "deviceId": "94BY19A26",
+            "name": "com.carolinapistillo.VRGlove",
+            "processId": 16819,
+            "exited": false
+        },
+        {
+            "deviceId": "94BY19A26",
+            "name": "com.carolinapistillo.VRGlove",
+            "processId": 17035,
+            "exited": false
+        },
+        {
+            "deviceId": "94BY19A26",
+            "name": "com.carolinapistillo.VRGlove",
+            "processId": 17266,
+            "exited": false
+        },
+        {
+            "deviceId": "94BY19A26",
+            "name": "com.carolinapistillo.VRGlove",
+            "processId": 17577,
+            "exited": false
+        },
+        {
+            "deviceId": "94BY19A26",
+            "name": "com.carolinapistillo.VRGlove",
+            "processId": 17882,
+            "exited": false
+        },
+        {
+            "deviceId": "94BY19A26",
+            "name": "com.carolinapistillo.VRGlove",
+            "processId": 18190,
+            "exited": false
+        },
+        {
+            "deviceId": "94BY19A26",
+            "name": "com.carolinapistillo.VRGlove",
+            "processId": 18870,
+            "exited": false
+        }
+    ],
+    "m_Tags": {
+        "m_Entries": [
+            {
+                "m_Name": "Filter by all listed tags",
+                "m_Selected": false
+            },
+            {
+                "m_Name": "No Filter",
+                "m_Selected": false
+            },
+            {
+                "m_Name": "",
+                "m_Selected": false
+            },
+            {
+                "m_Name": "Tag Control...",
+                "m_Selected": false
+            },
+            {
+                "m_Name": "",
+                "m_Selected": false
+            },
+            {
+                "m_Name": "Unity",
+                "m_Selected": true
+            },
+            {
+                "m_Name": "CRASH",
+                "m_Selected": false
+            },
+            {
+                "m_Name": "BLEPlugin",
+                "m_Selected": false
+            }
+        ]
+    },
+    "m_MemoryViewerState": {
+        "MemoryWindowHeight": 300.0,
+        "MemoryWindowWidth": 170.0,
+        "MemoryTypeEnabled": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+        ],
+        "MemoryGroup": 2,
+        "Behavior": 0
+    },
+    "m_Filter": "",
+    "m_FilterIsRegularExpression": false,
+    "m_SymbolPaths": []
+}

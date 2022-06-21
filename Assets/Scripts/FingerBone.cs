@@ -15,6 +15,15 @@ public class FingerBone : MonoBehaviour {
         gameObject.transform.Rotate(0, 0, -speed());
     }
 
+    public IEnumerator Flex(float startingAngle, float endAngle) {
+        gameObject.transform.Rotate(0, 0, -speed(startingAngle, endAngle));
+        yield return new WaitForEndOfFrame();
+    }
+
+    private float speed(float startingAngle, float endAngle) {
+        return (endAngle - startingAngle);
+    }
+
     public bool flexed() {
         return gameObject.transform.localRotation.eulerAngles.z <= maxZAngle + 360;
     }

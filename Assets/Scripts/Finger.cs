@@ -14,6 +14,28 @@ public class Finger : MonoBehaviour {
         }
     }
 
+    public void flexBones(float startingAngle, float endAngle) {
+        if(flexed()) {
+            if(endAngle < startingAngle) {
+                foreach(FingerBone fingerBone in fingerBones) {
+                    StartCoroutine(fingerBone.Flex(startingAngle, endAngle));
+                }
+            }
+            return;
+        }
+        if(streched()) {
+            if(endAngle > startingAngle) {
+                foreach(FingerBone fingerBone in fingerBones) {
+                    StartCoroutine(fingerBone.Flex(startingAngle, endAngle));
+                }
+            }
+            return;
+        }
+        foreach(FingerBone fingerBone in fingerBones) {
+            StartCoroutine(fingerBone.Flex(startingAngle, endAngle));
+        }
+    }
+
     public bool flexed() {
         return fingerBones[0].flexed();
     }
