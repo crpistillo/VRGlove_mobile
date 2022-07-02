@@ -21,7 +21,7 @@ public class Finger : MonoBehaviour {
     public IEnumerator updateAngle(float angle) {
         _isMoving = true;
 
-        float value = kalmanFilter.Update(angle) * ADJUST_FACTOR;
+        /*float value = kalmanFilter.Update(angle) * ADJUST_FACTOR;
         print("corrected value: " + value);
 
         if (Math.Abs(value - angle) >= 10) 
@@ -30,9 +30,9 @@ public class Finger : MonoBehaviour {
             value = 185;
         }*/
         
-        flexBones(previousAngle, value);
+        flexBones(angle);
         
-        previousAngle = value;
+        //previousAngle = value;
 
         yield return new WaitForSeconds(BLEController.UPDATE_RATE);
         _isMoving = false;
@@ -46,8 +46,8 @@ public class Finger : MonoBehaviour {
         }
     }
 
-    public void flexBones(float startingAngle, float endAngle) {
-        if(flexed()) {
+    public void flexBones(float angle) {
+        /*if(flexed()) {
             if(endAngle < startingAngle) {
                 foreach(FingerBone fingerBone in fingerBones) {
                     StartCoroutine(fingerBone.Flex(startingAngle, endAngle));
@@ -77,11 +77,14 @@ public class Finger : MonoBehaviour {
                 StartCoroutine(fingerBone.Flex(0, diff));
             }
             return;
-        }
+        }*/
         
         foreach(FingerBone fingerBone in fingerBones) {
-            StartCoroutine(fingerBone.Flex(startingAngle, endAngle));
+            StartCoroutine(fingerBone.Flex(angle));
         }
+
+        //StartCoroutine(fingerBones[3].Flex(angle));
+
     }
 
     public bool flexed() {

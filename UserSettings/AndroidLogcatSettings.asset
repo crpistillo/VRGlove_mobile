@@ -3,17 +3,11 @@
     "m_SelectedPackage": {
         "deviceId": "94BY19A26",
         "name": "com.carolinapistillo.VRGlove",
-        "processId": 25220,
+        "processId": 26294,
         "exited": false
     },
     "m_SelectedPriority": 0,
     "m_KnownPackagesForSerialization": [
-        {
-            "deviceId": "94BY19A26",
-            "name": "com.carolinapistillo.VRGlove",
-            "processId": 15518,
-            "exited": true
-        },
         {
             "deviceId": "94BY19A26",
             "name": "com.carolinapistillo.VRGlove",
@@ -42,6 +36,12 @@
             "deviceId": "94BY19A26",
             "name": "com.carolinapistillo.VRGlove",
             "processId": 25220,
+            "exited": true
+        },
+        {
+            "deviceId": "94BY19A26",
+            "name": "com.carolinapistillo.VRGlove",
+            "processId": 26294,
             "exited": false
         }
     ],

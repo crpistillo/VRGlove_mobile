@@ -29,6 +29,7 @@ public class HandController : MonoBehaviour
     float previousY = 0;
     float previousZ = 0;
 
+    public float fake_angle = 0;
     // original rotation of our object
     Quaternion initialObjRotation;
     
@@ -59,11 +60,11 @@ public class HandController : MonoBehaviour
 
     void Update()
     {
-        if(BLEController.anglesNotAvailable() || BLEController.mpuValuesNotAvailable()) {
+        /*if(BLEController.anglesNotAvailable() || BLEController.mpuValuesNotAvailable()) {
 
             return;
         } else {
-            /*if(!gyroCalibrated) {
+            if(!gyroCalibrated) {
 
                 StartCoroutine(CalibrateGyro());
                 return;
@@ -71,7 +72,7 @@ public class HandController : MonoBehaviour
 
             if(!handIsMoving) {
                 StartCoroutine(RotateHand());
-            }*/
+            }
             
             for(int i = 0 ; i < fingers.Count ; i++) {
                 if(!fingers[i].isMoving()) {
@@ -81,7 +82,17 @@ public class HandController : MonoBehaviour
                     StartCoroutine(fingers[i].updateAngle(BLEController.getFingerAngle(i)));   
                 } 
             }
-        }
+        }*/
+
+        //for(int i = 0 ; i < fingers.Count ; i++) {
+            int i = 0;
+            if(!fingers[i].isMoving()) {
+                if(invalidAngle(fake_angle)) {
+                    return;
+                }
+                StartCoroutine(fingers[i].updateAngle(fake_angle));   
+            } 
+        //}
     }
 
     public IEnumerator RotateHand() {
