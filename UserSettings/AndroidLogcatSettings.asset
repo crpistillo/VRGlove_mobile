@@ -3,7 +3,7 @@
     "m_SelectedPackage": {
         "deviceId": "94BY19A26",
         "name": "com.carolinapistillo.VRGlove",
-        "processId": 18870,
+        "processId": 25220,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -11,127 +11,37 @@
         {
             "deviceId": "94BY19A26",
             "name": "com.carolinapistillo.VRGlove",
-            "processId": 31667,
+            "processId": 15518,
             "exited": true
         },
         {
             "deviceId": "94BY19A26",
             "name": "com.carolinapistillo.VRGlove",
-            "processId": 31863,
+            "processId": 15626,
             "exited": true
         },
         {
             "deviceId": "94BY19A26",
             "name": "com.carolinapistillo.VRGlove",
-            "processId": 32220,
+            "processId": 23728,
             "exited": true
         },
         {
             "deviceId": "94BY19A26",
             "name": "com.carolinapistillo.VRGlove",
-            "processId": 32482,
+            "processId": 24555,
             "exited": true
         },
         {
             "deviceId": "94BY19A26",
             "name": "com.carolinapistillo.VRGlove",
-            "processId": 32699,
+            "processId": 24838,
             "exited": true
         },
         {
             "deviceId": "94BY19A26",
             "name": "com.carolinapistillo.VRGlove",
-            "processId": 1382,
-            "exited": false
-        },
-        {
-            "deviceId": "94BY19A26",
-            "name": "com.carolinapistillo.VRGlove",
-            "processId": 2347,
-            "exited": false
-        },
-        {
-            "deviceId": "94BY19A26",
-            "name": "com.carolinapistillo.VRGlove",
-            "processId": 2806,
-            "exited": false
-        },
-        {
-            "deviceId": "94BY19A26",
-            "name": "com.carolinapistillo.VRGlove",
-            "processId": 14453,
-            "exited": false
-        },
-        {
-            "deviceId": "94BY19A26",
-            "name": "com.carolinapistillo.VRGlove",
-            "processId": 14875,
-            "exited": false
-        },
-        {
-            "deviceId": "94BY19A26",
-            "name": "com.carolinapistillo.VRGlove",
-            "processId": 15491,
-            "exited": false
-        },
-        {
-            "deviceId": "94BY19A26",
-            "name": "com.carolinapistillo.VRGlove",
-            "processId": 15875,
-            "exited": false
-        },
-        {
-            "deviceId": "94BY19A26",
-            "name": "com.carolinapistillo.VRGlove",
-            "processId": 16314,
-            "exited": false
-        },
-        {
-            "deviceId": "94BY19A26",
-            "name": "com.carolinapistillo.VRGlove",
-            "processId": 16594,
-            "exited": false
-        },
-        {
-            "deviceId": "94BY19A26",
-            "name": "com.carolinapistillo.VRGlove",
-            "processId": 16819,
-            "exited": false
-        },
-        {
-            "deviceId": "94BY19A26",
-            "name": "com.carolinapistillo.VRGlove",
-            "processId": 17035,
-            "exited": false
-        },
-        {
-            "deviceId": "94BY19A26",
-            "name": "com.carolinapistillo.VRGlove",
-            "processId": 17266,
-            "exited": false
-        },
-        {
-            "deviceId": "94BY19A26",
-            "name": "com.carolinapistillo.VRGlove",
-            "processId": 17577,
-            "exited": false
-        },
-        {
-            "deviceId": "94BY19A26",
-            "name": "com.carolinapistillo.VRGlove",
-            "processId": 17882,
-            "exited": false
-        },
-        {
-            "deviceId": "94BY19A26",
-            "name": "com.carolinapistillo.VRGlove",
-            "processId": 18190,
-            "exited": false
-        },
-        {
-            "deviceId": "94BY19A26",
-            "name": "com.carolinapistillo.VRGlove",
-            "processId": 18870,
+            "processId": 25220,
             "exited": false
         }
     ],
@@ -190,6 +100,6 @@
         "Behavior": 0
     },
     "m_Filter": "",
-    "m_FilterIsRegularExpression": false,
+    "m_FilterIsRegularExpression": true,
     "m_SymbolPaths": []
 }

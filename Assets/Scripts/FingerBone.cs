@@ -25,7 +25,7 @@ public class FingerBone : MonoBehaviour {
     }
 
     public bool flexed() {
-        return gameObject.transform.localRotation.eulerAngles.z <= maxZAngle + 360;
+        return gameObject.transform.localRotation.eulerAngles.z - 360 <= maxZAngle;
     }
 
     public void strech() {
@@ -33,6 +33,6 @@ public class FingerBone : MonoBehaviour {
     }
 
     public bool streched() {
-        return gameObject.transform.localRotation.eulerAngles.z >= minZAngle + 360;
+        return gameObject.transform.localRotation.eulerAngles.z - 360 >= minZAngle;
     }
 }
