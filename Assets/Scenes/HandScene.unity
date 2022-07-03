@@ -267,8 +267,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   minZAngle: 0.221
   maxZAngle: -102
-  realMinZAngle: 0
-  realMaxZAngle: 0
+  realMinZAngle: 99
+  realMaxZAngle: -77.49
 --- !u!1 &258733766 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8309195671860857422, guid: bcb04e8035555c846b6728fd1ff05298,
@@ -289,8 +289,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   minZAngle: -0.7
   maxZAngle: -115.7
-  realMinZAngle: 0
-  realMaxZAngle: 0
+  realMinZAngle: 100.2747
+  realMaxZAngle: -82.794
 --- !u!1 &301379709 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8309195672169975029, guid: bcb04e8035555c846b6728fd1ff05298,
@@ -311,8 +311,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   minZAngle: -6
   maxZAngle: -80.1
-  realMinZAngle: 0
-  realMaxZAngle: 0
+  realMinZAngle: 98.58926
+  realMaxZAngle: 24.48924
 --- !u!1 &383970897 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8532642133002785278, guid: bcb04e8035555c846b6728fd1ff05298,
@@ -379,8 +379,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   minZAngle: 2.8
   maxZAngle: -82.2
-  realMinZAngle: 0
-  realMaxZAngle: 0
+  realMinZAngle: 105.4476
+  realMaxZAngle: -151.5991
 --- !u!1 &553667568 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8309195672424380280, guid: bcb04e8035555c846b6728fd1ff05298,
@@ -401,8 +401,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   minZAngle: 10.7
   maxZAngle: -69.3
-  realMinZAngle: 0
-  realMaxZAngle: 0
+  realMinZAngle: 110.2412
+  realMaxZAngle: -147.4345
 --- !u!114 &622855898 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8309195672493570642, guid: bcb04e8035555c846b6728fd1ff05298,
@@ -457,8 +457,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   minZAngle: -3.3
   maxZAngle: -69.24
-  realMinZAngle: 0
-  realMaxZAngle: 0
+  realMinZAngle: 100.0387
+  realMaxZAngle: 34.09873
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -779,7 +779,7 @@ MonoBehaviour:
   - {fileID: 127527215}
   - {fileID: 866807837}
   - {fileID: 622855898}
-  ADJUST_FACTOR: 0.6
+  ADJUST_FACTOR: 1
 --- !u!1 &1276813287 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8309195672910537583, guid: bcb04e8035555c846b6728fd1ff05298,
@@ -800,8 +800,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   minZAngle: 2.9
   maxZAngle: -62.1
-  realMinZAngle: 0
-  realMaxZAngle: 0
+  realMinZAngle: 103.1014
+  realMaxZAngle: -144.864
 --- !u!1 &1341214387 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8309195672941261371, guid: bcb04e8035555c846b6728fd1ff05298,
@@ -822,8 +822,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   minZAngle: 1.34
   maxZAngle: -104.1
-  realMinZAngle: 0
-  realMaxZAngle: 0
+  realMinZAngle: 103.0246
+  realMaxZAngle: -70.2998
 --- !u!1 &1846579322
 GameObject:
   m_ObjectHideFlags: 0
@@ -937,8 +937,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   minZAngle: -6.4
   maxZAngle: -74
-  realMinZAngle: 0
-  realMaxZAngle: 0
+  realMinZAngle: 99.96815
+  realMaxZAngle: 32.36816
 --- !u!1001 &8309195671904271496
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1090,6 +1090,16 @@ PrefabInstance:
         type: 3}
       propertyPath: maxZAngle
       value: -80.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8309195671995995559, guid: bcb04e8035555c846b6728fd1ff05298,
+        type: 3}
+      propertyPath: realMinZAngle
+      value: 99.21675
+      objectReference: {fileID: 0}
+    - target: {fileID: 8309195671995995559, guid: bcb04e8035555c846b6728fd1ff05298,
+        type: 3}
+      propertyPath: realMaxZAngle
+      value: 23.71676
       objectReference: {fileID: 0}
     - target: {fileID: 8309195672020747698, guid: bcb04e8035555c846b6728fd1ff05298,
         type: 3}
@@ -1269,22 +1279,22 @@ PrefabInstance:
     - target: {fileID: 8309195672493570641, guid: bcb04e8035555c846b6728fd1ff05298,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.016061304
+      value: -0.017961089
       objectReference: {fileID: 0}
     - target: {fileID: 8309195672493570641, guid: bcb04e8035555c846b6728fd1ff05298,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.02714627
+      value: 0.025928454
       objectReference: {fileID: 0}
     - target: {fileID: 8309195672493570641, guid: bcb04e8035555c846b6728fd1ff05298,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.07192657
+      value: 0.00046593513
       objectReference: {fileID: 0}
     - target: {fileID: 8309195672493570641, guid: bcb04e8035555c846b6728fd1ff05298,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.9969111
+      value: 0.99950236
       objectReference: {fileID: 0}
     - target: {fileID: 8309195672493570641, guid: bcb04e8035555c846b6728fd1ff05298,
         type: 3}
@@ -1299,12 +1309,22 @@ PrefabInstance:
     - target: {fileID: 8309195672493570641, guid: bcb04e8035555c846b6728fd1ff05298,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 8.2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8309195672493570642, guid: bcb04e8035555c846b6728fd1ff05298,
         type: 3}
       propertyPath: minZAngle
-      value: 8.2
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8309195672493570642, guid: bcb04e8035555c846b6728fd1ff05298,
+        type: 3}
+      propertyPath: realMinZAngle
+      value: 99.45249
+      objectReference: {fileID: 0}
+    - target: {fileID: 8309195672493570642, guid: bcb04e8035555c846b6728fd1ff05298,
+        type: 3}
+      propertyPath: realMaxZAngle
+      value: -150.54749
       objectReference: {fileID: 0}
     - target: {fileID: 8309195672499150517, guid: bcb04e8035555c846b6728fd1ff05298,
         type: 3}
@@ -1410,6 +1430,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8309195672737500309, guid: bcb04e8035555c846b6728fd1ff05298,
+        type: 3}
+      propertyPath: realMinZAngle
+      value: 99.11
+      objectReference: {fileID: 0}
+    - target: {fileID: 8309195672737500309, guid: bcb04e8035555c846b6728fd1ff05298,
+        type: 3}
+      propertyPath: realMaxZAngle
+      value: -81.2126
+      objectReference: {fileID: 0}
+    - target: {fileID: 8309195672737500309, guid: bcb04e8035555c846b6728fd1ff05298,
+        type: 3}
+      propertyPath: maxZAngle
+      value: -99
       objectReference: {fileID: 0}
     - target: {fileID: 8309195672910537568, guid: bcb04e8035555c846b6728fd1ff05298,
         type: 3}

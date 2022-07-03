@@ -82,9 +82,6 @@ public class Finger : MonoBehaviour {
         foreach(FingerBone fingerBone in fingerBones) {
             StartCoroutine(fingerBone.Flex(angle));
         }
-
-        //StartCoroutine(fingerBones[3].Flex(angle));
-
     }
 
     public bool flexed() {
